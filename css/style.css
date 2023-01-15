@@ -1,0 +1,283 @@
+/* reset */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  gap: 40px;
+}
+
+/* style */
+
+body {
+  background-color:#E5E5E5;
+}
+.heads{
+  background-color: #232323;
+}
+/* main html */
+
+header {
+  border-bottom: 1px solid #ffffff;
+
+}
+
+
+/* container */
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* nav-menu */
+
+.nav-menu {
+  display: flex;
+  margin-left: 124px;
+  gap: 40px;
+
+}
+.header{
+  display:flex;
+  align-items: center;
+  padding: 30px 0;
+}
+
+/* block html */
+.boxs {
+  max-width: 1040px;
+  border: 1px solid #ffffff;
+}
+
+.show {
+  display: inline-block;
+  padding: 12px 28px;
+
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 1px solid #ffffff;
+}
+.show:focus {
+  border: 10px solid aqua;
+  outline: 1px solid coral;
+}
+.bolok{
+  text-decoration: none;
+}
+.h1{
+  max-width: 636px;
+  margin-bottom: 342px;
+  margin-top: 200px;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+
+.head-div-ul{
+  display: flex;
+  gap:12px ;
+
+}
+.haed-li-button{
+  width: 315px;
+  height: 151px;
+  background-color: #8D86C9;
+  border: none;
+  color: #ffffff;
+  text-align: start;
+  padding-left:35px;
+}
+.head-button-p{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+.head-button-h4{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+
+
+
+/* foto */
+.beck{
+  background-color: #E5E5E5;
+  padding-top: 150px ;
+  padding-bottom: 150px;
+  padding-right: 312px;
+  padding-left: 312px;
+}
+.container-foto{
+  max-width: 1296px;
+}
+.foto img{
+  display: block;
+}
+
+.foto{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+.foto-item{
+  border: 1px solid #F7ECE1; 
+  padding: 25px 20px;
+}
+
+
+/* coach */
+.coach{
+  background-color: #E5E5E5;
+  padding-left: 70px;
+}
+
+
+.h2-coach{
+  color:#333333 ;
+  margin:none;
+  padding-bottom: 75px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%; 
+}
+.ul-couch{
+  color:#333333 ;
+  display: flex;
+  gap: 24px;
+}
+.coach-item-img{
+  border: 1px solid #F7ECE1; 
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+.coach-item-p{
+  text-align: center;
+  position: absolute;
+  width: 196px;
+  height: 40px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+}
+.coach-item-h3{
+  text-align: center;
+}
+
+/* Ціни й абонементи */
+.h2-cost{
+  padding-top: 150px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  color: #333333;
+}
+.cost{
+  background-color: #E5E5E5;
+  padding-left:312px ;
+  margin-top: 170px;
+}
+
+.button{
+  display: block;
+  width: 100%;
+  background-color:#8D86C9 ;
+  border: none;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 140%;
+}
+.ul-button{
+  padding-top: 75px;
+  padding-bottom:151px ;
+}
+.ul-button-item + .ul-button-item{
+  margin-top: 31px;
+}
+.div-cost{
+  max-width: 526px;
+}
+
+
+/* footer */
+.footer{
+  display: flex;
+  align-content: center;
+}
+.footer{
+  background-color:#F7ECE1 ;
+  height: 96px;
+}
+.nav2-menu{
+  display: flex;
+  margin-left: 104px;
+  gap: 40px;
+  justify-content: center;
+}
+.nav2-menu-item{
+  display: inline-block;
+  padding-top: 38px;
+}
+.link2{
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+}
+.footer-p{
+  color: #333333;
+  opacity: 0.3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  padding-top: 27px;
+}
+
+
+
+/* BOLOK */
+/* news */
+.news{
+  color: #ffffff;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+text-align: center;
+padding-left: 30px;
+padding-bottom: 60px;
+
+}
