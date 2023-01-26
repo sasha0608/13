@@ -30,6 +30,7 @@ body {
   background-color:#E5E5E5;
 }
 .hero{
+  padding-top: 306px;
   background: url(/images/Rectangle\ 26\ \(1\).jpg);
   background-repeat: no-repeat;
   
@@ -38,6 +39,7 @@ body {
   background: url(/images/Rectangle\ 26\ \(1\)\ копія.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
+  padding-top: 136px;
 }
 /* main html */
 
@@ -103,8 +105,7 @@ header {
 
 .h1{
   width: 636px;
-  margin-bottom: 342px;
-  margin-top: 306px;
+  margin-bottom: 338px;
   font-weight: 700;
   font-size: 48px;
   line-height: 140%;
@@ -418,11 +419,9 @@ padding-top: 30px;
   font-size: 26px;
   padding: 15px 20px 0 20px ;
 }
-.div-img-list:hover .div-lorem{
+.list:hover .div-lorem{
   transform: translate(0%, -100%) ;
 }
-
-
 .img-list{
   display: block;
   width: 100%;
@@ -452,10 +451,12 @@ line-height: 1.4;
 font-weight: 600;
 font-size: 18px;
 line-height: 1.4;
+cursor: pointer;
 
 color: #FFFFFF;
 background: #8D86C9;
 border:none;
+
 }
 .button-list1{
   margin-top: 49px;
