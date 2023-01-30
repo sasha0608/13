@@ -31,12 +31,12 @@ body {
 }
 .hero{
   padding-top: 306px;
-  background: url(/images/Rectangle\ 26\ \(1\).jpg);
+  background: url(../images/back1.jpg);
   background-repeat: no-repeat;
   
 }
 .heads2{
-  background: url(/images/Rectangle\ 26\ \(1\)\ копія.jpg);
+  background: url(../images/back2.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   padding-top: 136px;
@@ -62,7 +62,11 @@ header {
   margin: 0 auto;
 }
 /* nav-menu */
-
+.logo{
+  display: block;
+  width: 153px;
+  height: 46px;
+}
 .icon{
   width: 10px;
   height: 10px;
@@ -81,31 +85,45 @@ header {
   transition-duration: 250ms;
 }
 
-
+.nav{
+  margin-left: 124px;
+  display: flex;
+  align-items: center;
+  gap:125px ;
+  
+}
 .nav-menu {
   display: flex;
-  margin-left: 124px;
   gap: 40px;
 
   position: relative;
-
 }
 .header{
   width: 100%;
   display:flex;
   align-items: center;
 }
+.svg-header{
+  display: flex;
+  gap: 20px;
+  
+}
+.a-svg-header{
+  display: block;
+  width: 36px;
+  height: 36px; 
+  fill: #FFFFFF; 
+}
 
 /* block html */
 .boxs {
   max-width: 1040px;
-
 }
 
 
 .h1{
   width: 636px;
-  margin-bottom: 338px;
+  margin-bottom: 60px;
   font-weight: 700;
   font-size: 48px;
   line-height: 140%;
@@ -116,32 +134,138 @@ header {
   gap:12px ;
 
 }
+.head-buttom{
+  position: relative;
+}
 .haed-li-button{
   width: 315px;
-  
+
   background-color: #8D86C9;
   border: none;
   color: #ffffff;
   text-align: start;
   justify-content: center;
+  padding: 35px 0 40px 35px;
+}
+.haed-li-button::after{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/images/Vector-3-2.svg);
+  position: absolute;
+  right: 40px;
+  bottom: 54px;
+
 }
 .head-button-p{
-  margin: 35px 224px 17px 35px;
+  margin-bottom: 17px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
 }
-.head-button-h4{
-  margin: 0 0 40px 35px;
+.head-button-p4{
   font-weight: 700;
   font-size: 24px;
   line-height: 1.4;
 }
 
+/* SVG-haeder */
 
+.div-svg{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 202px;
+}
 
+.button-svg{
+  position: relative;
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: transparent;
+  background-color: #8D86C9;
+
+}
+.button-svg::before{
+  content: '';
+  position: absolute;
+  top: -8px;
+  bottom:-8px ;
+  left: -8px;
+  right: -8px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #ffffffff;
+  transform: scale(1);
+}
+.button-svg:hover::before{
+  transform: scale(0.9);
+  transition-duration: 20ms;
+
+  
+
+}
+.svg{
+  display: block;
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  top: 22px;
+  left: 24px;
+}
+.p-svg{
+  width: 158px;
+  font-weight: 600;
+font-size: 18px;
+line-height: 1.4;
+color: #FFFFFF;
+}
 
 /* foto */
+.foto-item{
+  position: absolute;
+  color: #FFFFFF;
+  bottom: 40px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.4;
+  text-align: center;
+  bottom: 40px;
+  left: 75px;
+}
+.foto-item2 h3{
+  left: 0;
+}
+.foto-item1{
+  width: 376px;
+  height: 450px;
+  background: url(../images/img1.jpg);
+  
+  position: relative;
+  
+}
+.foto-item2{
+  width: 376px;
+  height: 450px;
+  background: url(../images/img2.jpg);
+  
+  position: relative;
+  
+}
+.foto-item3{
+  width: 376px;
+  height: 450px;
+  background: url(../images/img3.jpg);
+  
+  position: relative;
+}
+.item-li{
+  border: 1px solid #F7ECE1;
+  padding: 25px 20px;
+}
+
 .beck{
   padding: 150px ;
 }
@@ -152,12 +276,9 @@ header {
   display: flex;
   justify-content: center;
   gap: 24px;
+  
+}
 
-}
-.foto-item{
-  border: 1px solid #F7ECE1; 
-  padding: 25px 20px;
-}
 
 
 
@@ -207,26 +328,52 @@ font-size: 14px;
 width: 400px;
 }
 .sport-li-p{
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
-.con{
-  width: 10px;
-  height: 10px;
+.sport-li-item::before{
+  content: '';
+  width: 8px;
+  height: 8px;
   background-color: #8D86C9;
   position: absolute;
 
-  transform: translateX(-100%) ;
   top: 6px;
-  left: -23px;
+  left: -33px;
+
 }
 
 
 
 
 /* coach */
+.svg-coach-button{
+  position: relative;
+}
+.coach-ul-button{
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 0px;
+  right:0px;
+}
+.svg-coach{
+  display: block;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  fill: #ffffff;
+}
+
+
+.div-coach{
+  margin-top: 150px;
+  position: relative;
+}
 .h2-coach{
   color:#333333 ;
-  padding-bottom: 75px;
+  margin-bottom: 75px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.4; 
@@ -257,13 +404,13 @@ margin: 25px 0 15px 0;
 
 /* Ціни й абонементи */
 .cost{
-  padding-top: 170px;
+  margin-top: 170px;
 }
 .div-cost{
   width: 526px;
 }
 .ul-button{
-  padding-top: 75px;
+  margin-top: 75px;
   padding-bottom:151px ;
 }
 .h2-cost{
@@ -283,15 +430,32 @@ margin: 25px 0 15px 0;
 font-weight: 600;
 font-size: 21px;
 line-height: 1.4;
+position: relative;
+}
+.button::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/row-left.svg);
+  transform: rotate(180deg);
+  top: 15px;
+  right: 30px;
+  
 }
 .ul-button-item + .ul-button-item{
   margin-top: 31px;
+}
+.ul-button-item{
+  position: relative;
 }
 
 
 /* услуги-div */
 .ulygi{
-  padding-left: 104px;
+  margin-left: 104px;
+  position: relative;
 }
 .cost-div{
   display: flex;
@@ -299,14 +463,24 @@ line-height: 1.4;
 .div-button{
   display: flex;
   align-items: center;
-  position: relative;
   margin-bottom: 75px;
+  position: relative;
 }
+.ulygi-svg{
+  display: block;
+  width: 31px;
+  height: 31px;
+  top: 10px;
+  left: 10px;
+  fill: #ffffff;
+}
+
 .ulygi-title{
   padding: 0;
   color:#333333 ;
   font-weight: 700;
 font-size: 36px;
+margin-bottom: 75px;
 }
 .ulygi-photo{
   border: 1px solid #F7ECE1;
@@ -318,7 +492,7 @@ font-size: 36px;
   height: 270px;
   background-position:center ;
   background-size:contain ;
-  background: url('../images/Rectangle\ 39-2\ \(1\).jpg');
+  background: url(../images/cafe.jpg);
 }
 .cafe-h5{
   position: absolute;
@@ -341,7 +515,8 @@ font-weight: 700;
 
   border: none;
   display: block;
-  padding: 22.5px;
+  height: 50px;
+  width: 50px;
   cursor: pointer;
 }
 
@@ -349,16 +524,27 @@ font-weight: 700;
 
 
 /* footer */
-.footer {
+.footer.container{
   display: flex;
   align-items: center;
-  background-color:#F7ECE1 ;
-  height: 96px;
+
 }
+.footer{
+  padding: 38px 0;
+  background-color:#F7ECE1 ;
+}
+.nav2{
+  margin-left: 104px;
+  display: flex;
+  align-items: center;
+  gap:125px ;
+  
+}
+
 .nav2-menu{
   display: flex;
-  margin-left: 104px;
   gap: 40px;
+  position: relative;
 }
 .nav2-menu-item{
   display: inline-block;
@@ -377,6 +563,18 @@ font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
 }
+.svg-footer{
+  display: flex;
+  gap: 20px;
+  
+  
+}
+.a-svg-footer{
+  display: block;
+  width: 36px;
+  height: 36px;  
+  fill: #8D86C9;
+}
 
 
 
@@ -392,11 +590,15 @@ padding-left: 30px;
 padding-bottom: 60px;
 padding-top: 30px;
 }
+.sec-list{
+  padding-top:80px ;
+  padding-bottom: 120px;
+}
 .ul-list{
   display: flex; 
   flex-wrap:wrap ;
   gap: 24px;
-  margin:80px auto 120px auto;
+  
 }
 .div-img-list{
   position: relative;
@@ -437,7 +639,7 @@ padding-top: 30px;
 }
 .h4-list{
   color: #333333;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
 font-weight: 600;
 font-size: 21px;
@@ -468,3 +670,6 @@ border:none;
   border: 1px solid #F7ECE1;
   width: 416px;
 }
+
+
+
