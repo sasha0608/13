@@ -41,6 +41,12 @@ body {
   background-repeat: no-repeat;
   padding-top: 136px;
 }
+.heads3{
+  background: url(../images/back3.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 136px;
+}
 /* main html */
 
 header {
@@ -468,11 +474,13 @@ position: relative;
 }
 .ulygi-svg{
   display: block;
+  position: absolute;
   width: 31px;
   height: 31px;
   top: 10px;
   left: 10px;
   fill: #ffffff;
+  
 }
 
 .ulygi-title{
@@ -512,7 +520,7 @@ font-weight: 700;
 }
 .ulygi-button{
   background-color: #8D86C9;
-
+position: relative;
   border: none;
   display: block;
   height: 50px;
