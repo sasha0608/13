@@ -36,16 +36,17 @@ body {
   
 }
 .heads2{
-  background: url(../images/backs.jpg);
+  background: url(../images/back2.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-top: 136px;
+  padding: 136px 0 60px; 
+
 }
 .heads3{
   background: url(../images/back3.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-top: 136px;
+  padding: 136px 0 60px; 
 }
 /* main html */
 
@@ -155,10 +156,9 @@ header {
 }
 .haed-li-button::after{
   content: '';
-  display: block;
   width: 20px;
   height: 20px;
-  background-image: url(/images/Vector-3-2.svg);
+  background-image: url(../images/Vector-3-2.svg);
   position: absolute;
   right: 40px;
   bottom: 54px;
@@ -245,24 +245,24 @@ color: #FFFFFF;
   left: 0;
 }
 .foto-item1{
-  width: 376px;
-  height: 450px;
+  width: 374px;
+  height: 448px;
   background: url(../images/img1.jpg);
   
   position: relative;
   
 }
 .foto-item2{
-  width: 376px;
-  height: 450px;
+  width: 374px;
+  height: 448px;
   background: url(../images/img2.jpg);
   
   position: relative;
   
 }
 .foto-item3{
-  width: 376px;
-  height: 450px;
+  width: 374px;
+  height: 448px;
   background: url(../images/img3.jpg);
   
   position: relative;
@@ -273,7 +273,7 @@ color: #FFFFFF;
 }
 
 .beck{
-  padding: 150px ;
+  padding: 150px 0 ;
 }
 .foto img{
   display: block;
@@ -302,11 +302,14 @@ span{
 .sport-li-item{
   position: relative;
 }
+/* .sport-li-p:not(:last-child){
+  margin-bottom: 20px;
+} */
 .sport-space{
   position: relative; 
   width:636px ;
   background-color:#F7ECE1; 
-  margin:  0 422px 0 auto;
+  margin:  0 109px 0 auto;
   
   color: #333333;
   line-height: 1.4;
@@ -321,8 +324,9 @@ span{
 .sport-p {
   font-weight: 400;
   font-size: 14px;
-  margin-bottom: 35px;
+  
 }
+
 .sport-h2 {
   font-weight: 600;
 font-size: 21px;
@@ -352,6 +356,13 @@ width: 400px;
 
 
 /* coach */
+.coach{
+  margin-top: 150px 0; 
+}
+.coach-container{
+  position: relative;
+  margin-top: 150px;
+}
 .svg-coach-button{
   position: relative;
 }
@@ -371,11 +382,9 @@ width: 400px;
   left: 10px;
   fill: #ffffff;
 }
-
-
-.div-coach{
-  margin-top: 150px;
-  position: relative;
+.div2-coach{
+  border: 1px solid #F7ECE1; 
+  padding: 0 15px;
 }
 .h2-coach{
   color:#333333 ;
@@ -391,8 +400,7 @@ line-height: 1.4;
   line-height: 1.4;
 }
 .coach-item-img{
-  border: 1px solid #F7ECE1; 
-  padding: 0 15px;
+  display: block;
 }
 .coach-item-p{
   text-align: center;
@@ -417,7 +425,6 @@ margin: 25px 0 15px 0;
 }
 .ul-button{
   margin-top: 75px;
-  padding-bottom:151px ;
 }
 .h2-cost{
   font-weight: 700;
@@ -437,6 +444,7 @@ font-weight: 600;
 font-size: 21px;
 line-height: 1.4;
 position: relative;
+text-align: left;
 }
 .button::after{
   content: '';
@@ -463,6 +471,9 @@ position: relative;
   margin-left: 104px;
   position: relative;
 }
+.cost{
+  padding-bottom: 150px;
+}
 .cost-div{
   display: flex;
 }
@@ -471,12 +482,13 @@ position: relative;
   align-items: center;
   margin-bottom: 75px;
   position: relative;
+  padding: 0 ;
 }
 .ulygi-svg{
   display: block;
   position: absolute;
-  width: 31px;
-  height: 31px;
+  width: 30px;
+  height: 30px;
   top: 10px;
   left: 10px;
   fill: #ffffff;
@@ -496,8 +508,8 @@ margin-bottom: 75px;
 }
 .cafe{
   position: relative;
-  width: 586px;
-  height: 270px;
+  width: 584px;
+  height: 268px;
   background-position:center ;
   background-size:contain ;
   background: url(../images/cafe.jpg);
@@ -545,7 +557,7 @@ position: relative;
   margin-left: 104px;
   display: flex;
   align-items: center;
-  gap:125px ;
+  gap: 107px;
   
 }
 
@@ -594,9 +606,8 @@ font-weight: 700;
 font-size: 48px;
 line-height: 1.4;
 text-align: center;
-padding-left: 30px;
-padding-bottom: 60px;
-padding-top: 30px;
+
+
 }
 .sec-list{
   padding-top:80px ;
@@ -620,17 +631,18 @@ padding-top: 30px;
   opacity: 0.8;
   color: #FFFFFF;
 
-  width: 296px;
-  height: 225px;
-  left: 20px;
-  
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transform: translateY(100%) ;
 }
 .p-lorem{
   font-size: 26px;
   padding: 15px 20px 0 20px ;
 }
 .list:hover .div-lorem{
-  transform: translate(0%, -100%) ;
+  transform: translateY(0%) ;
 }
 .img-list{
   display: block;
@@ -638,8 +650,7 @@ padding-top: 30px;
 }
 .p-list{
   color: #333333;
-  padding-top: 25px;
-  padding-bottom: 15px;
+  margin: 25px 0 15px;
   opacity: 0.5;
   font-weight: 400;
   font-size: 14px;
@@ -656,7 +667,7 @@ line-height: 1.4;
 .button-list{
   width: 137px;
   padding: 10px 20px;
-  margin-top: 20px;
+  
 
 font-weight: 600;
 font-size: 18px;
@@ -680,4 +691,86 @@ border:none;
 }
 
 
+/* ABOUT 3-PAG */
+
+
+.img-border{
+  padding: 25px 20px;
+  border: 1px solid #F7ECE1;
+}
+.club-container{
+  position: relative;
+  margin-top: 150px;
+}
+.club-img{
+  width: 100%;
+  height: 450px;
+  position: relative;
+  background-image: url('../images/img-about.jpg');
+  background-repeat: no-repeat;
+}
+.btn{
+  width: 145px;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+
+font-weight: 600;
+font-size: 18px;
+line-height: 1.4;
+cursor: pointer;
+
+color: #FFFFFF;
+background: #8D86C9;
+border:none;
+}
+.h1-club{
+  color: #333333;
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.4;
+margin-bottom: 60px;
+
+}
+
+.h1-club2{
+  color: #333333;
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.4;
+margin: 150px 0 60px;
+
+}
+
+.span{
+  padding-top: 24px;
+}
+.club2-img{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(calc(-100% + 86px), -50%);
+}
+.club2{
+  position: relative; 
+  width: 856px;
+  background-color:#F7ECE1; 
+  margin:  0 109px 0 auto;
+  
+  color: #333333;
+  line-height: 1.4;
+  padding: 70px 60px 90px 146px;
+}
+.club2-h1{
+  width: 650px;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700px;
+  font-size: 36px;
+}
+.club2-p{
+  font-weight: 400;
+  font-size: 14px;
+}
 
