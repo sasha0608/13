@@ -310,9 +310,6 @@ span{
 .sport-li-item{
   position: relative;
 }
-/* .sport-li-p:not(:last-child){
-  margin-bottom: 20px;
-} */
 .sport-space{
   position: relative; 
   width:636px ;
@@ -334,7 +331,6 @@ span{
   font-size: 14px;
   
 }
-
 .sport-h2 {
   font-weight: 600;
 font-size: 21px;
@@ -347,6 +343,9 @@ width: 400px;
 }
 .sport-li-p{
   margin-bottom: 20px;
+}
+.sport-li-p-last{
+  margin-bottom: 0;
 }
 .sport-li-item::before{
   content: '';
